@@ -8,11 +8,11 @@ git clone git@github.com:hiltonmuccillo/teste-nt.git
 Após clonar o repositório, abra o arquivo <strong>index.html</strong> no navegador.<br><br>
 <strong>Foi usado neste projeto HTML5, CSS3, Bootstrap e Javascript Puro.</strong><br><br>
 
-# Teste - Sicredi / Desktop Responsivo
+## Sicredi / Desktop Responsivo
 
 ![Teste - Sicredi](screen-sicredi.gif?raw=true "Teste NT - Sicredi")
 
-# Teste - Sicredi / Mobile
+## Sicredi / Mobile
 
 ![Teste - Sicredi](screen-sicredi-mobile.gif?raw=true "Teste NT - Sicredi")
 
