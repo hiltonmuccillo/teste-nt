@@ -16,5 +16,5 @@ Após clonar o repositório, abra o arquivo <strong>index.html</strong> no naveg
 
 ![Teste - Sicredi](images/screen-sicredi-mobile.gif?raw=true "Teste NT - Sicredi")
 
-<strong>Visualização no navegador Chrome.</strong><br><br>
+<strong>Visualização no navegador Chrome.</strong><br>
 <strong>Ver online no navegador =></strong> https://hiltonmuccillo.com/teste-nt/index.html
