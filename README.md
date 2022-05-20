@@ -6,7 +6,7 @@ Clone o repositório abaixo:<br>
 git clone git@github.com:hiltonmuccillo/teste-nt.git
 ```
 Após clonar o repositório, abra o arquivo <strong>index.html</strong> no navegador.<br><br>
-<strong>Foi usado neste projeto HTML5, CSS3, Bootstrap e Javascript Puro.</strong><br><br>
+<strong>Foi usado neste projeto HTML5, CSS3, Bootstrap e Javascript Puro.</strong><br>
 
 ## Sicredi / Desktop Responsivo
 
@@ -17,5 +17,4 @@ Após clonar o repositório, abra o arquivo <strong>index.html</strong> no naveg
 ![Teste - Sicredi](screen-sicredi-mobile.gif?raw=true "Teste NT - Sicredi")
 
 <strong>Visualização no navegador Chrome.</strong><br><br>
-<strong>Foi usado neste projeto HTML5, CSS3, Bootstrap e Javascript Puro.</strong><br><br>
 <strong>Ver online no navegador =></strong> https://hiltonmuccillo.com/teste-nt/index.html
