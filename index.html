@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="font/bootstrap-icons.css">
+    <!-- Favicon -->
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>    
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sicredi</title>        
+</head>
+<body>
+    
+    <main>        
+        <!-- Header -->
+        <header>
+            <nav class="navbar nav-bg">
+                <div class="container-fluid plr">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="images/logo.svg" alt="Sicredi" title="Sicredi">
+                    </a>
+                    <div id="login">
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle btn-acessar" type="button" id="defaultDropdown" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false">
+                                Acessar conta com
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                                <li>
+                                    <div class="arrow-up">▲</div>
+                                </li>                               
+                                <li>
+                                    <span>Pessoa física</span>
+                                    <div class="form-check">                                        
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="coop">
+                                        <label class="form-check-label" for="coop">
+                                            Coop e conta
+                                        </label>
+                                    </div>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <span>Pessoa jurídica</span>
+                                    <div class="form-check">                                        
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="cnpj">
+                                        <label class="form-check-label" for="cnpj">
+                                            CNPJ
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <input id="subst-pholder" type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="">
+                            <button class="btn" type="button"><i class="bi bi-arrow-right"></i></button>                            
+                        </div>                        
+                    </div>                    
+                    <div class="menu-right">                        
+                        <button  class="btn btn-user" type="button">
+                            <i class="bi bi-person"></i> Abra sua conta
+                        </button>                        
+                        <button class="btn btn-search" type="button">
+                            <i class="bi bi-search"></i>
+                        </button>                            
+                        <button class="btn btn-list" type="button">
+                            <i class="bi bi-list"></i>
+                        </button>
+                    </div>
+                </div>                                                                                        
+                <div class="invisible-search">
+                    <span class="fechar-search">&#x2715;</span>
+                    <div class="search-content">
+                        <h2 class="text-center">O que você está procurando?</h2>
+                        <form class="busca">
+                            <input id="search" type="text" class="" aria-label="Text input with dropdown button" placeholder="Escreva aqui">
+                            <button class="btn" type="button"><i class="bi bi-search"></i></button>
+                        </form>
+                    </div>
+                </div>                                                                        
+                <div class="invisible">
+                    <span class="fechar">&#x2715;</span>
+                    <div class="accordion" id="accordionExample" style="overflow-y: auto">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Sobre Nós
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#" alt="Quem Somos" title="Quem Somos">Quem Somos</a></li>
+                                        <li><a href="#" alt="Nossas cooperativas" title="Nossas cooperativas">Nossas cooperativas</a></li>
+                                        <li><a href="#" alt="Relação com investidores" title="Relação com investidores">Relação com investidores</a></li>
+                                        <li><a href="#" alt="Trabalhe conosco" title="Trabalhe conosco">Trabalhe conosco</a></li>
+                                        <li><a href="#" alt="Imprensa" title="Imprensa">Imprensa</a></li>
+                                        <li><a href="#" alt="Relatórios" title="Relatórios">Relatórios</a></li>
+                                        <li><a href="#" alt="Cooperativismo de crédito" title="Cooperativismo de crédito">Cooperativismo de crédito</a></li>
+                                        <li><a href="#" alt="Sustentabilidade" title="Sustentabilidade">Sustentabilidade</a></li>
+                                        <li><a href="#" alt="Fundação Sicredi" title="Fundação Sicredi">Fundação Sicredi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Fale com a gente
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#" alt="Fale conosco" title="Fale conosco">Fale conosco</a></li>
+                                        <li><a href="#" alt="Nossos canais" title="Nossos canais">Nossos canais</a></li>
+                                        <li><a href="#" alt="Telefones" title="Telefones">Telefones</a></li>
+                                        <li><a href="#" alt="Localizar agência" title="Localizar agência">Localizar agência</a></li>
+                                        <li><a href="#" alt="Ouvidoria" title="Ouvidoria">Ouvidoria</a></li>
+                                        <li><a href="#" alt="Denúncia" title="Denúncia">Denúncia</a></li>
+                                        <li><a href="#" alt="Segurança" title="Segurança">Segurança</a></li>
+                                        <li><a href="#" alt="Proteção de dados" title="Proteção de dados">Proteção de dados</a></li>                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Serviços
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#" alt="Promoções e parcerias" title="Promoções e parcerias">Promoções e parcerias</a></li>
+                                        <li><a href="#" alt="Serviços ao mercado financeiro" title="Serviços ao mercado financeiro">Serviços ao mercado financeiro</a></li>
+                                        <li><a href="#" alt="Programa minha casa, minha vida" title="Programa minha casa, minha vida">Programa minha casa, minha vida</a></li>
+                                        <li><a href="#" alt="Calculadora Bacen" title="Calculadora Bacen">Calculadora Bacen</a></li>
+                                        <li><a href="#" alt="Mudança de número de conta" title="Mudança de número de conta">Mudança de número de conta</a></li>
+                                        <li><a href="#" alt="Agente credenciado" title="Agente credenciado">Agente credenciado</a></li>
+                                        <li><a href="#" alt="Canal do consorciado" title="Canal do consorciado">Canal do consorciado</a></li>
+                                        <li><a href="#" alt="Portabilidade de salário" title="Portabilidade de salário">Portabilidade de salário</a></li>                                        
+                                        <li><a href="#" alt="Cadastro positivo" title="Cadastro positivo">Cadastro positivo</a></li>                                        
+                                        <li><a href="#" alt="Renegociação de dívida" title="Renegociação de dívida">Renegociação de dívida</a></li>                                        
+                                        <li><a href="#" alt="Análises ecônomicas" title="Análises ecônomicas">Análises ecônomicas</a></li>                                        
+                                        <li><a href="#" alt="Portal do desenvolvedor" title="Portal do desenvolvedor">Portal do desenvolvedor</a></li>                                        
+                                        <li><a href="#" alt="Open Finance" title="Open Finance">Open Finance</a></li>                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                    Para Você
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#" alt="Câmbio" title="Câmbio">Câmbio</a></li>
+                                        <li><a href="#" alt="Crédito" title="Crédito">Crédito</a></li>
+                                        <li><a href="#" alt="Pix" title="Pix">Pix</a></li>
+                                        <li><a href="#" alt="Cartões" title="Cartões">Cartões</a></li>
+                                        <li><a href="#" alt="Consórcios" title="Consórcios">Consórcios</a></li>
+                                        <li><a href="#" alt="Investimentos" title="Investimentos">Investimentos</a></li>
+                                        <li><a href="#" alt="Previdência" title="Previdência">Previdência</a></li>
+                                        <li><a href="#" alt="Conta corrente" title="Conta corrente">Conta corrente</a></li>                                        
+                                        <li><a href="#" alt="Pagamentos e Recebimentos" title="Pagamentos e Recebimentos">Pagamentos e Recebimentos</a></li>                                        
+                                        <li><a href="#" alt="Seguros" title="Seguros">Seguros</a></li>                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Para Empresa
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#" alt="Conta corrente empresarial" title="Conta corrente empresarial">Conta corrente empresarial</a></li>
+                                        <li><a href="#" alt="Investimentos" title="Investimentos">Investimentos</a></li>
+                                        <li><a href="#" alt="Cartão empresarial" title="Cartão empresarial">Cartão empresarial</a></li>
+                                        <li><a href="#" alt="Máquina de cartões" title="Máquina de cartões">Máquinas de cartões</a></li>
+                                        <li><a href="#" alt="MEI" title="MEI">MEI</a></li>
+                                        <li><a href="#" alt="Pix PJ" title="Pix PJ">Pix PJ</a></li>
+                                        <li><a href="#" alt="Seguros" title="Seguros">Seguros</a></li>
+                                        <li><a href="#" alt="Consórcios" title="Consórcios">Consórcios</a></li>                                        
+                                        <li><a href="#" alt="Câmbio e comércio exterior" title="Câmbio e comércio exterior">Câmbio e comércio exterior</a></li>                                        
+                                        <li><a href="#" alt="Pagamentos e Recebimentos" title="Pagamentos e Recebimentos">Pagamentos e Recebimentos</a></li>                                        
+                                        <li><a href="#" alt="Crédito" title="Crédito">Crédito</a></li>                                        
+                                        <li><a href="#" alt="Previdência" title="Previdência">Previdência</a></li>                                        
+                                        <li><a href="#" alt="Certificado digital" title="Certificado digital">Certificado digital</a></li>                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Para Agronegócio
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#" alt="Certificado Digital" title="Certificado Digital">Certificado digital</a></li>
+                                        <li><a href="#" alt="Crédito" title="Crédito">Crédito</a></li>
+                                        <li><a href="#" alt="Pagamentos e Recebimentos" title="Pagamentos e Recebimentos">Pagamentos e Recebimentos</a></li>
+                                        <li><a href="#" alt="Cartões" title="Cartões">Cartões</a></li>
+                                        <li><a href="#" alt="Consórcios" title="Consórcios">Consórcios</a></li>
+                                        <li><a href="#" alt="Inovação no Agro" title="Inovação no Agro">Inovação no Agro</a></li>
+                                        <li><a href="#" alt="Pix" title="Pix">Pix</a></li>                                                                              
+                                        <li><a href="#" alt="Câmbio e comércio exterior" title="Câmbio e comércio exterior">Câmbio e comércio exterior</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="opacity"></div>
+        </header>
+            
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="oportunidades">
+                        <h1>Nós temos as melhores oportunidades <span class="vc">para você</span></h1>
+                        <p>Somos o parceiro ideal para te acompanhar e ajudar em todas as suas conquistas. De forma responsável e transparente, nós vamos, juntos, organizar a sua vida financeira.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <img src="images/sicredi-content.jpg" class="img-fluid foto" alt="">
+                    </div>                    
+                </div>
+                <div class="col-md-4">
+                    <div class="para-voce">
+                        <h4>Para Você</h4>
+                        <ul>
+                            <li><a href="#" type="button" alt="Câmbio" title="Câmbio">Câmbio</a></li>
+                            <li><a href="#" type="button" alt="Crédito" title="Crédito">Crédito</a></li>
+                            <li><a href="#" type="button" alt="Pix" title="pix">Pix</a></li>
+                            <li><a href="#" type="button" alt="Cartões" title="Cartões">Cartões</a></li>
+                            <li><a href="#" type="button" alt="Consórcios" title="Consórcios">Consórcios</a></li>
+                            <li><a href="#" type="button" alt="Investimentos" title="Investimentos">Investimentos</a></li>
+                            <li><a href="#" type="button" alt="Previdência" title="Previdência">Previdência</a></li>
+                            <li><a href="#" type="button" alt="Conta Corrente" title="Conta Corrente">Conta Corrente</a></li>
+                            <li><a href="#" type="button" alt="Pagamentos e Recebimentos" title="Pagamentos e Recebimentos">Pagamentos e Recebimentos</a></li>
+                            <li><a href="#" type="button" alt="Seguros" title="Seguros">Seguros</a></li>
+                        </ul>
+                        <ul class="empresa-agro">
+                            <h4><a href="#" type="button" alt="Para Sua Empresa" title="Para Sua Empresa">Para Sua Empresa</a></h4>
+                            <h4><a href="#" type="button" alt="Para Seu Agronegócio" title="Para Seu Agronegócio">Para Seu Agronegócio</a></h4>
+                        </ul> 
+                    </div>                                       
+                </div>
+            </div>
+            <footer>
+                <div class="logo-footer">
+                    <img src="images/logo.svg" alt="Sicredi">
+                </div>
+                <div class="copyright">© 2022 Sicredi. Todos os direitos reservados.</div>
+            </footer>
+        </div>
+        
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    
+   <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+       
+</body>
+</html>
