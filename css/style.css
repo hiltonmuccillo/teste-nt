@@ -146,7 +146,7 @@ label {
   }
 
 .plr {
-    /* padding-right: 0 !important; */
+    padding-right: 0 !important;
     padding-left: 0 !important;
 }
 
@@ -627,6 +627,10 @@ p {
 }
 
 @media(max-width: 620px) {
+
+    .plr {        
+        padding-left: 0 !important;
+    }
 
     .dropdown-menu {        
         margin: 1rem 1rem;        
