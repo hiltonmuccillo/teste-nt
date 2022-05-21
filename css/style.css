@@ -28,6 +28,7 @@ header {
     justify-content: space-between;
     padding-top: 0;
     padding-bottom: 0;
+    z-index: 0;
 }
 
 .nav-bg {
@@ -353,13 +354,14 @@ p {
 
 .opacityIn {
     position: fixed;
+    top: 0;
     display: flex;
     width: 100vw;
     height: 100vh;
     background-color: #fff;
     transition: all 1s ease;
     opacity: 0.7;
-    z-index: 0;
+    z-index: 1;
 }
 
 .accordion {    
