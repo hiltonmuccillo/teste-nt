@@ -5,13 +5,17 @@
     let coop = document.querySelector("#coop");
     let cnpj = document.querySelector("#cnpj");
 
-    coop.addEventListener("click", function(){
-        substPlaceholder.placeholder = "Coop e conta";
-    });
-
-    cnpj.addEventListener("click", function(){
-        substPlaceholder.placeholder = "CNPJ";
-    });
+    if (coop.checked == false) {
+        coop.addEventListener("click", function(){
+        substPlaceholder.placeholder = "Coop e conta";       
+        });            
+    }
+    
+    if (cnpj.checked == false) {
+        cnpj.addEventListener("click", function(){
+        substPlaceholder.placeholder = "CNPJ";       
+        });            
+    }
 
 })();
 
